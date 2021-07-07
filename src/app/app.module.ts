@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EdvoyHomeComponent } from './edvoy-home/edvoy-home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EdvoyHomeComponent
   ],
   imports: [
     BrowserModule,
